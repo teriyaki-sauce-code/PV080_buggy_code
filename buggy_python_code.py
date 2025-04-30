@@ -1,5 +1,3 @@
-import sys 
-import os
 import yaml
 import flask
 
@@ -46,6 +44,7 @@ def authenticate(password):
     print("Successfully authenticated!")
 
 if __name__ == '__main__':
+    print("\n")
     print("Vulnerabilities:")
     print("1. Format string vulnerability:")
     print("2. Code injection vulnerability:")
