@@ -45,7 +45,7 @@ jobs:
         include:
         - language: actions
           build-mode: none
-        - language: c-cpp
+        - language: python
           build-mode: autobuild
         - language: python
           build-mode: none
